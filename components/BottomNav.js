@@ -95,10 +95,18 @@ const BottomNav = () => {
         component={Home}
         options={{ headerShown: false }}
       />
-      <Tab.Screen name="Search" component={SearchScreen} />
+      <Tab.Screen
+        name="Search"
+        component={SearchScreen}
+        options={{ headerShown: false }}
+      />
       <Tab.Screen name="Watchlist" component={WatchlistScreen} />
       <Tab.Screen name="Genre" component={GenreScreen} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen
+        name="Settings"
+        component={SettingsScreen}
+        options={{ headerShown: false }}
+      />
     </Tab.Navigator>
   );
 };

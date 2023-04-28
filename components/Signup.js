@@ -169,6 +169,30 @@ const styles = StyleSheet.create({
     padding: 20,
   },
 
+  // inputBox: {
+  //   flexDirection: "column",
+  //   alignSelf: "center",
+  //   width: width * 0.8,
+  //   height: height * 0.1,
+  //   top: height * 0.15,
+  //   borderBottomWidth: 1,
+  //   borderBottomColor: "gray",
+  //   marginBottom: 5,
+  // },
+  // emailLabel: {
+  //   fontSize: 15,
+  //   fontFamily: "Aero-Regular",
+  //   color: "white",
+  //   paddingTop: height * 0.03,
+  //   marginTop: 5,
+  // },
+  // emailInput: {
+  //   fontFamily: "Arial",
+  //   fontStyle: "italic",
+  //   height: height * 0.07,
+  //   marginTop: 5,
+  // },
+
   inputBox: {
     flexDirection: "column",
     alignSelf: "center",
@@ -184,13 +208,17 @@ const styles = StyleSheet.create({
     fontFamily: "Aero-Regular",
     color: "white",
     paddingTop: height * 0.03,
-    marginTop: 5,
+    //marginTop: 5,
+    //backgroundColor: "green",
   },
   emailInput: {
     fontFamily: "Arial",
     fontStyle: "italic",
-    height: height * 0.07,
-    marginTop: 5,
+    height: height * 0.03,
+    //backgroundColor: "yellow",
+    paddingTop: height * 0.01,
+    color: "#B1B1B1",
+    marginTop: 10,
   },
 
   btnContainer: {
@@ -214,8 +242,42 @@ const styles = StyleSheet.create({
     color: "white",
     padding: 5,
   },
+  // TxtContainer: {
+  //   height: height * 0.03,
+  //   width: width * 0.8,
+  //   top: height * 0.32,
+  //   alignSelf: "center",
+  //   //backgroundColor: "yellow",
+  // },
+  // accountTxt: {
+  //   fontFamily: "Aero-Regular",
+  //   color: "gray",
+  //   padding: height * 0.015,
+  //   fontSize: 12,
+  // },
+  // SignupBox: {
+  //   top: height * 0.315,
+  //   height: height * 0.05,
+  //   width: width * 0.8,
+  //   alignSelf: "center",
+  // },
+  // signupButton: {
+  //   color: "white",
+  //   flexDirection: "row",
+  // },
+  // SignupTxt: {
+  //   color: "white",
+  //   fontSize: 12,
+  //   fontFamily: "Aero-Regular",
+  //   fontWeight: "400",
+  //   padding: height * 0.015,
+  // },
+  // IconStyle: {
+  //   paddingTop: height * 0.007,
+  //   marginLeft: -4,
+  // },
   TxtContainer: {
-    height: height * 0.03,
+    height: height * 0.025,
     width: width * 0.8,
     top: height * 0.32,
     alignSelf: "center",
@@ -224,29 +286,31 @@ const styles = StyleSheet.create({
   accountTxt: {
     fontFamily: "Aero-Regular",
     color: "gray",
-    padding: height * 0.015,
+    paddingTop: height * 0.008,
     fontSize: 12,
   },
   SignupBox: {
-    top: height * 0.315,
+    top: height * 0.32,
     height: height * 0.05,
     width: width * 0.8,
     alignSelf: "center",
   },
-  signupButton: {
-    color: "white",
-    flexDirection: "row",
-  },
+
   SignupTxt: {
     color: "white",
     fontSize: 12,
     fontFamily: "Aero-Regular",
     fontWeight: "400",
-    padding: height * 0.015,
+    paddingTop: height * 0.012,
   },
+
+  signupButton: {
+    color: "white",
+    flexDirection: "row",
+  },
+
   IconStyle: {
-    paddingTop: height * 0.007,
-    marginLeft: -4,
+    paddingTop: height * 0.009,
   },
 });
 export default Signup;

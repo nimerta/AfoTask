@@ -183,13 +183,17 @@ const styles = StyleSheet.create({
     fontFamily: "Aero-Regular",
     color: "white",
     paddingTop: height * 0.03,
-    marginTop: 5,
+    //marginTop: 5,
+    //backgroundColor: "green",
   },
   emailInput: {
     fontFamily: "Arial",
     fontStyle: "italic",
-    height: height * 0.07,
-    marginTop: 5,
+    height: height * 0.03,
+    //backgroundColor: "yellow",
+    paddingTop: height * 0.01,
+    color: "#B1B1B1",
+    marginTop: 10,
   },
 
   btnContainer: {
@@ -214,37 +218,64 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   TxtContainer: {
-    height: height * 0.03,
+    height: height * 0.028,
     width: width * 0.8,
     top: height * 0.365,
     alignSelf: "center",
+    //backgroundColor: "yellow",
   },
   accountTxt: {
     fontFamily: "Aero-Regular",
     color: "gray",
-    padding: height * 0.015,
+    //padding: height * 0.015,
     fontSize: 12,
+    paddingTop: height * 0.008,
   },
   SignupBox: {
-    top: height * 0.36,
+    top: height * 0.365,
     height: height * 0.05,
     width: width * 0.8,
     alignSelf: "center",
-  },
-  signupButton: {
-    color: "white",
-    flexDirection: "row",
   },
   SignupTxt: {
     color: "white",
     fontSize: 12,
     fontFamily: "Aero-Regular",
     fontWeight: "400",
-    padding: height * 0.015,
+    paddingTop: height * 0.012,
+  },
+  signupButton: {
+    color: "white",
+    flexDirection: "row",
   },
   IconStyle: {
-    paddingTop: height * 0.007,
-    marginLeft: -4,
+    paddingTop: height * 0.009,
   },
+  // accountTxt: {
+  //   fontFamily: "Aero-Regular",
+  //   color: "gray",
+  //   paddingTop: height * 0.01,
+  //   fontSize: 12,
+  // },
+  // SignupBox: {
+  //   top: height * 0.365,
+  //   height: height * 0.05,
+  //   width: width * 0.8,
+  //   alignSelf: "center",
+  // },
+  // signupButton: {
+  //   color: "white",
+  //   flexDirection: "row",
+  // },
+  // SignupTxt: {
+  //   color: "white",
+  //   fontSize: 12,
+  //   fontFamily: "Aero-Regular",
+  //   fontWeight: "400",
+  //   paddingTop: height * 0.012,
+  // },
+  // IconStyle: {
+  //   paddingTop: height * 0.008,
+  // },
 });
 export default Login;

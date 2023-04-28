@@ -9,6 +9,7 @@ const Stack = createNativeStackNavigator();
 import Signup from "./components/Signup";
 import Home from "./components/Home";
 import BottomNav from "./components/BottomNav";
+import DownloadScreen from "./components/DownloadScreen";
 export default function App() {
   return (
     <NavigationContainer>
@@ -34,6 +35,7 @@ export default function App() {
           component={BottomNav}
           options={{ headerShown: false }}
         />
+        <Stack.Screen name="DownloadScreen" component={DownloadScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

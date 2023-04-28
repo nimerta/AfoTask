@@ -23,7 +23,7 @@ const Homedata = [
   { id: "3", title: "Tv Shows" },
   { id: "4", title: "Videos" },
 ];
-const HeaderHeight = "20%";
+//const HeaderHeight = "20%";
 const data = [
   {
     id: "1",
@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   container1: {
     flex: 1,
     backgroundColor: "black",
-    height: HeaderHeight,
+    // height: HeaderHeight,
   },
   container2: {
     height: 50,
@@ -358,19 +358,7 @@ const styles = StyleSheet.create({
     borderRadius: 7,
     top: 10,
   },
-  // videoContainer: {
-  //   flex: 1,
-  //   alignItems: "center",
-  //   justifyContent: "center",
-  //   // marginTop: 10,
-  //   borderRadius: 25,
-  // },
-  // videoStyling: {
-  //   width: 500,
-  //   height: 235,
-  //   resizeMode: "contain",
-  //   borderRadius: 25,
-  // },
+
   videoContainer: {
     flex: 1,
     alignItems: "center",
@@ -378,8 +366,9 @@ const styles = StyleSheet.create({
     //backgroundColor: "yellow",
   },
   videoStyling: {
-    width: windowWidth * 0.98,
+    width: windowWidth * 1,
     height: windowHeight * 0.26,
+
     resizeMode: "cover",
     borderRadius: 5,
   },
